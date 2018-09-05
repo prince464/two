@@ -1,0 +1,188 @@
+@import url('https://fonts.googl;4eapis.com/css?family=Roboto+Condensed:300,400,700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #737373;
+}
+
+header{}
+.contaner{
+	width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.border{
+	border-bottom: 1px solid #757474;
+    padding: 30px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{}
+
+.social-icon{
+	width: 80%;
+    float: left;
+}
+.social-icon ul{
+	text-align: right;
+}
+.social-icon ul li{
+	list-style: none;
+    display: inline-block;
+}
+.social-icon ul li a{}
+.social-icon ul li:first-child a{
+	position: relative;
+    display: block;
+}
+.social-icon ul li:first-child a img:last-child{
+	position: absolute;
+    top: 50%;
+    left: 36%;
+}
+
+nav{
+	overflow: hidden;
+    padding: 15px 0;
+}
+nav ul{}
+nav ul li{
+	float: left;
+	list-style: none;
+}
+nav ul li a{
+	display: block;
+    padding: 15px;
+    padding-left: 0;
+    color: #737373;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+nav ul li a:hover{}
+
+.banner{
+	width: 100%;
+    background: url(../images/bannerbg.jpg);
+}
+.banner img{
+	transform: translatey(80px);
+    margin: 0 auto;
+}
+
+.about-us{
+	margin-top: 120px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-us p{}
+.about-us a{
+	text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2dcc70;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+.get-to-know-us{
+	background-color: #f1eaea;
+    overflow: hidden;
+}
+.video{
+	width: 40%;
+    float: left;
+}
+.video img{
+	width: 100%;
+    padding: 30px;
+}
+.article{
+	width: 60%;
+    float: left;
+    padding: 30px;
+    padding-left: 0;
+}
+.article h1{
+	text-transform: uppercase;
+}
+.article p{
+	padding-top: 20px;
+}
+
+.find-out{
+	background-color: #000000d4;
+    overflow: hidden;
+    padding: 30px;
+}
+.heading{
+	width: 70%;
+    float: left;
+}
+.heading h2{
+	text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+.more-link{
+	width: 30%;
+    float: left;
+}
+.more-link a{
+	text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2dcc70;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+footer{
+	background-color: #f1eaea;
+	font-weight: 600;
+}
+.copy-right{
+	width: 50%;
+    float: left;
+}
+.copy-right p{
+	text-transform: uppercase;
+    padding: 15px;
+    margin: 20px;
+}
+
+.footer-menu{
+	width: 50%;
+    float: left;
+}
+.footer-menu ul{
+	text-align: right;
+}
+.footer-menu ul li{
+	list-style: none;
+    display: inline-block;
+}
+.footer-menu li a{
+	display: block;
+    color: #737373;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 20px 0;
+}
